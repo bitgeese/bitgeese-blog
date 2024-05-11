@@ -7,7 +7,10 @@ slug: seo-for-django-5-methods-to-improve-seo
 featured: false
 draft: false
 tags:
-  - articles
+  - seo
+  - backend
+  - django
+  - frontend
 description: Learn how to improve your Search engine optimisation for your Django website using this 5 easy methods
 ---
 This Week I decide to look into improving the SEO of my personal website. I don't know much about it, but after some research I found few things developers can do on their Django websites to improve your  SEO.

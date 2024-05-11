@@ -7,7 +7,15 @@ slug: simple-to-do-list-with-django-alpinejs-tailwidcss-and-axios
 featured: true
 draft: false
 tags:
-  - articles
+  - frontend
+  - backend
+  - fullstack
+  - django
+  - alpine.js
+  - djangorestframework
+  - restapi
+  - tailwindcss
+  - axios.js
 description: Create a To-Do List with Django, Django Rest Framework, Alpine.js, TailwindCSS and Axios Js
 ---
 While back I wrote a tutorial on how to make a todo app with Django, Alpine.js, and Axios, however, there was some room for improvement as I was just beginning with Alpine, so I decided to write a new version.

@@ -7,7 +7,10 @@ slug: making-django-app-publicly-accessible-with-ngrok
 featured: false
 draft: false
 tags:
-  - articles
+  - backend
+  - django
+  - ngrok
+  - tools
 description: Learn how to make Django App Publicly Accessible With Ngrok following this short article
 ---
 Sometimes when developing our Django application, we need to make it publicly accessible or use https, for example when testing OAuth authentication sometimes https is enforced, or when testing Shopify webhooks (where the request is executed on Shopify server, so we need to make it publicly available), or simply when we want to share it with a friend without deploying it live.

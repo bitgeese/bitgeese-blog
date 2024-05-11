@@ -7,7 +7,9 @@ slug: carousel-with-tailwind-and-alpine
 featured: false
 draft: false
 tags:
-  - articles  
+  - tailwindcss
+  - alpine.js
+  - frontend  
 description: Building a carousel component with TailwindCSS and Alpine.js
 ---
 By the end of this article you will be able to create a carousel component with TailwindCSS and Alpine.js 

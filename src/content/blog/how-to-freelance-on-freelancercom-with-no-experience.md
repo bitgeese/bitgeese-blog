@@ -7,7 +7,7 @@ slug: how-to-freelance-on-freelancercom-with-no-experience
 featured: true
 draft: false
 tags:
-  - articles  
+  - freelancing  
 description: How To Freelance on Freelancer.com with no experience
 
 ---

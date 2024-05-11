@@ -7,7 +7,12 @@ slug: how-to-set-up-personal-website-with-markdown-tailwind-alpinejs
 featured: true
 draft: false
 tags:
-  - articles  
+  - eleventy
+  - 11ty
+  - markdown
+  - tailwindcss
+  - alpine.js
+  - frontend  
 description: How to set up a personal website with 11ty, Markdown, TailwindCSS, and Alpine.js
 ---
 {% raw %}

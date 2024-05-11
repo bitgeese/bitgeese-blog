@@ -7,7 +7,9 @@ slug: netlify-form-static-site
 featured: false
 draft: false
 tags:
-  - articles
+  - netlify
+  - deployment
+  - frontend
 description: How to create a contact form for a static site with Netlify
 ---
 Creating form on a static website hosted on Netlify is super easy.

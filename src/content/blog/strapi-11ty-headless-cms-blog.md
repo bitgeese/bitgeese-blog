@@ -7,7 +7,13 @@ slug: strapi-11ty-headless-cms-blog
 featured: false
 draft: false
 tags:
-  - articles
+  - frontend
+  - eleventy
+  - 11ty
+  - strapi
+  - cms
+  - jamstack
+  - fullstack
 description: Connect headless CMS strapi to eleventy blog 
 ---
 {% raw %}

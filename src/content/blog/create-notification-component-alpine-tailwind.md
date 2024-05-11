@@ -7,7 +7,9 @@ slug: create-notification-component-alpine-tailwind
 featured: false
 draft: false
 tags:
-  - articles  
+  - alpine.js
+  - tailwind.css
+  - frontend  
 description: How to create Notification pop up component with Alpine.js and TailwindCSS
 ---
 
