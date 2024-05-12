@@ -18,10 +18,11 @@ module.exports = {
     screens: {
       sm: "640px",
     },
+    fontFamily: {
+      sans: ["Inter Var", ...defaultTheme.fontFamily.sans],
+      custom: ["Brenat", "Inter Var", ...defaultTheme.fontFamily.sans],
+    },
     extend: {
-      fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.mono],
-      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),
