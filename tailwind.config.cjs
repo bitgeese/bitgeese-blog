@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -16,8 +18,10 @@ module.exports = {
     screens: {
       sm: "640px",
     },
-
     extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.mono],
+      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),

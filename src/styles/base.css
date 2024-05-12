@@ -14,7 +14,7 @@
   } 
   html[data-theme="dark"] {
     --color-fill: 15, 15, 15; /* very dark black background */
-    --color-text-base: 225, 225, 225; /* slightly off-white for text, better contrast on black */
+    --color-text-base: 255, 255, 255; /* slightly off-white for text, better contrast on black */
     --color-accent: 233, 72, 35; /* Luminous Red as the accent color */
     --color-card: 28, 28, 28; /* darker shade of black for cards */
     --color-card-muted: 45, 45, 45; /* muted dark grey for less prominent elements */
@@ -29,7 +29,7 @@
     display: block;
   }
   body {
-    @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base 
+    @apply flex min-h-[100svh] flex-col bg-skin-fill font-sans text-skin-base 
     selection:bg-skin-accent selection:bg-opacity-70 selection:text-skin-inverted;
   }
   section,
