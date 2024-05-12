@@ -255,5 +255,26 @@ export const SKILLS = [
         "years": 5
       }
     ]
+  },
+  {
+    "name": "Languages",
+    "skills": [
+      {
+        "name": "🇺🇸 English",
+        "years": "Fluent"
+      },
+      {
+        "name": "🇵🇱 Polish",
+        "years": "Native"
+      },
+      {
+        "name": "🇪🇸 Spanish",
+        "years": "Fluent"
+      },
+      {
+        "name": "🇧🇷 Portugese",
+        "years": "Advanced"
+      }
+    ]
   }
 ];
