@@ -139,3 +139,121 @@ export const SOCIALS: SocialObjects = [
   //   active: false,
   // },
 ];
+
+export const SKILLS = [
+  {
+    name: "Programming and Web Development",
+    skills: [
+      {
+        "name": "Python",
+        "years": 7
+      },
+      {
+        "name": "JavaScript",
+        "years": 7
+      },
+      {
+        "name": "HTML",
+        "years": 8
+      },
+      {
+        "name": "CSS",
+        "years": 8
+      },
+      {
+        "name": "Django",
+        "years": 5
+      },
+      {
+        "name": "Flask",
+        "years": 5
+      },
+      {
+        "name": "FastAPI",
+        "years": 4
+      },
+      {
+        "name": "Rest API",
+        "years": 5
+      },
+      {
+        "name": "Web Scraping",
+        "years": 7
+      },
+      {
+        "name": "TailwindCSS",
+        "years": 5
+      },
+      {
+        "name": "Vue.js",
+        "years": 4
+      },
+      {
+        "name": "Alpine.js",
+        "years": 4
+      },
+      {
+        "name": "Angular",
+        "years": 1
+      }
+    ]
+  },
+  {
+    name: "Databases and Task Processing",
+    skills: [
+      {
+        "name": "MySQL",
+        "years": 7
+      },
+      {
+        "name": "PostgreSQL",
+        "years": 7
+      },
+      {
+        "name": "MongoDB",
+        "years": 4
+      },
+      {
+        "name": "Celery",
+        "years": 5
+      },
+      {
+        "name": "Redis",
+        "years": 5
+      }
+    ]
+  },
+  {
+    name: "DevOps and Other Skills",
+    skills: [
+      {
+        "name": "Docker",
+        "years": 4
+      },
+      {
+        "name": "Kubernetes",
+        "years": 2
+      },
+      {
+        "name": "Github Workflow",
+        "years": 3
+      },
+      {
+        "name": "Technical writing",
+        "years": 6
+      },
+      {
+        "name": "Shopify",
+        "years": 5
+      },
+      {
+        "name": "Cloud",
+        "years": 4
+      },
+      {
+        "name": "Testing",
+        "years": 5
+      }
+    ]
+  }
+];

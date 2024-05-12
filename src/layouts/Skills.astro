@@ -1,0 +1,38 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE, SKILLS } from "@config";
+
+
+---
+
+<Layout title={`Skills | ${SITE.title}`}>
+  <Header activeNav="skills" />
+  <Main pageTitle="Skills">
+
+    {
+      SKILLS.map(category => (
+        <h2 class="text-2xl text-skin-accent font-semibold">{category.name}</h2>
+        <ul>
+          {
+            category.skills.map(skill => (
+              <li class="text-lg">{skill.name}: {skill.years} {'years'}</li>
+            ))
+          }
+        </ul>
+      ))
+    }
+    
+  </Main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .skills {
+    @apply text-lg;
+  }
+</style>
