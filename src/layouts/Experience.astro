@@ -1,0 +1,57 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import SkillBadge from "@components/SkillBadge.astro";
+import LinkButton from "@components/LinkButton.astro";
+import { SITE, EXPERIENCE } from "@config";
+
+
+---
+
+<Layout title={`Experience | ${SITE.title}`}>
+  <Header activeNav="resume" />
+  <Main pageTitle="Experience">
+    <LinkButton
+          className="mb-8 underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="/assets/downloads/maciej-janowski-resume.pdf"
+        >
+          Download
+        </LinkButton>  my Resume as PDF
+    {
+      EXPERIENCE.map(experience => (
+        <div class="mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
+            <header class="text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">{experience.start} — {experience.end}</header>
+            <div class="sm:col-span-6">
+                <h3 class="font-medium leading-snug">
+                    <a class="inline-flex items-baseline font-medium leading-tight hover:text-skin-accent focus-visible:text-skin-accent group/link text-base" href={experience.website} target="_blank">{experience.position} · {experience.company}</a>
+                </h3>
+                <ul class="mt-2 text-sm leading-normal list-disc list-inside">
+                    {
+                        experience.description.map(bullet => (
+                            <li>{bullet}</li>
+                        ))
+                    }
+                </ul>
+                <ul class="mt-2 flex flex-wrap">
+                    {
+                        experience.stack.map(skill => (
+                            <SkillBadge skill={skill} />
+                        ))
+                    }
+                    
+
+                </ul>
+                
+            </div>
+          
+        </div>
+
+      ))
+    }
+    
+  </Main>
+
+  <Footer />
+</Layout>

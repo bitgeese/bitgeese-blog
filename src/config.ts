@@ -140,6 +140,111 @@ export const SOCIALS: SocialObjects = [
   // },
 ];
 
+export const EXPERIENCE = [
+  {
+    "position": "Backend Engineer, DDOS",
+    "company": "G-Core",
+    "website": "https://gcore.com",
+    "country": "Luxembourg",
+    "start": "2022",
+    "end": "Present",
+    "stack": ["Python", "Django", "FastApi", "PostgreSQL", "Celery", "Redis", "RabbitMQ", "Docker", "Kubernetes", "Grafana"],
+    "description": [
+      "Created a tool to better track errors, making it easier to fix bugs.",
+      "Made new data collection points using FastAPI in REST API work.",
+      "Led the creation of a REST API for a new product, offering advanced AI features for clients.",
+      "Improved the workflow with new checks and task monitoring using Grafana and Flower.",
+      "Helped new team members settle in, improving teamwork and efficiency.",
+      "Assessed a new company's product, helping with important decisions."
+    ]
+  },
+  {
+    "position": "Backend Engineer",
+    "company": "LeadSherpa",
+    "country": "United States",
+    "start": "May 2022",
+    "end": "Dec 2022",
+    "stack": ["Python", "Django", "FastAPI", "PostgreSQL", "ElasticSearch", "Celery", "Redis", "Docker", "AWS"],
+    "description": [
+      "Created new Django REST API endpoints, improving app functionality.",
+      "Optimized slow components, enhancing app performance and user satisfaction.",
+      "Updated outsourced legacy code, enhancing code quality.",
+      "Developed features for internal tools, reducing ticket resolution time.",
+      "Led new feature implementation in flagship product, aiding market success.",
+      "Improved product quality by increasing test coverage."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "Losource LTD",
+    "country": "United Kingdom",
+    "start": "May 2021",
+    "end": "May 2022",
+    "stack": ["JavaScript", "TailwindCSS", "11ty", "Sanity", "Shopify API", "Python", "Django", "Postgres"],
+    "description": [
+      "Developed key website components, boosting user engagement.",
+      "Integrated e-commerce features using Shopify Cart API, increasing sales conversions.",
+      "Assisted in building robust back-ends with 11ty and headless CMS systems like Sanity, enhancing content management.",
+      "Created custom REST APIs with Django, improving website functionality and user experience."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "NextPower Capital Advisors",
+    "country": "United States",
+    "start": "Jan 2021",
+    "end": "May 2021",
+    "stack": ["Python", "Django", "Postgres", "HTMX", "JavaScript", "Alpine.js", "TailwindCSS", "Docker"],
+    "description": [
+      "Developed new parts of the website using Bootstrap, HTMX, and Alpine.js, which greatly improved the look and feel.",
+      "Designed databases and REST APIs using Django and the Django Rest Framework, which made handling data more efficient.",
+      "Improved code quality, increased test coverage, and simplified CI/CD pipelines, which led to better operational efficiency."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "GigB GmbH",
+    "country": "Germany",
+    "start": "Mar 2020",
+    "end": "Jan 2021",
+    "stack": ["Python", "Django", "Postgres", "Celery", "Redis", "JavaScript", "Vue.js", "TailwindCSS", "Docker"],
+    "description": [
+      "Developed a CRM/CMS for the music/events industry.",
+      "Created a tool for easy professional band website construction.",
+      "Expedited project timelines with a quickly implemented Application Dashboard.",
+      "Enhanced data management with efficient database models.",
+      "Improved app functionality/compatibility with a Django Rest Framework REST API."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "CrowdEngage",
+    "country": "United Kingdom",
+    "start": "Aug 2019",
+    "end": "Mar 2020",
+    "stack": ["Python", "Django", "Postgres", "Celery", "Redis", "JavaScript", "Vue.js", "TailwindCSS", "Docker"],
+    "description": [
+      "Developed an Application Dashboard with TailwindCSS and Alpine.js for enhanced UI/UX.",
+      "Improved data management with effective database models.",
+      "Increased app functionality with a robust REST API using Django Rest Framework.",
+      "Introduced testing coverage, CI/CD pipeline with code checks and tests."
+    ]
+  },
+  {
+    "position": "Full Stack Developer",
+    "company": "Freelance",
+    "country": "Poland",
+    "start": "Aug 2017",
+    "end": "Aug 2019",
+    "stack": ["Python", "Django", "Flask", "Pyramid", "MySQL", "Postgres", "Celery", "Redis", "RabbitMQ", "JavaScript", "Vue.js"],
+    "description": [
+      "Created unique web applications and REST APIs for international clients.",
+      "Expedited initial product versions for quicker market testing.",
+      "Established advanced web scraping systems for efficient data collection."
+    ]
+  }
+];
+
 export const SKILLS = [
   {
     name: "Programming and Web Development",
