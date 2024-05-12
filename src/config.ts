@@ -148,7 +148,7 @@ export const EXPERIENCE = [
     "country": "Luxembourg",
     "start": "2022",
     "end": "Present",
-    "stack": ["Python", "Django", "FastApi", "PostgreSQL", "Celery", "Redis", "RabbitMQ", "Docker", "Kubernetes", "Grafana"],
+    "stack": ["🐍 Python", "🧭 Django", "⚡️ FastApi", "🐘 PostgreSQL", "🥬 Celery", "⌛️ Redis", "🐰 RabbitMQ", "🐳 Docker", "☸️ Kubernetes", "📊 Grafana"],
     "description": [
       "Created a tool to better track errors, making it easier to fix bugs.",
       "Made new data collection points using FastAPI in REST API work.",
@@ -164,7 +164,7 @@ export const EXPERIENCE = [
     "country": "United States",
     "start": "May 2022",
     "end": "Dec 2022",
-    "stack": ["Python", "Django", "FastAPI", "PostgreSQL", "ElasticSearch", "Celery", "Redis", "Docker", "AWS"],
+    "stack": ["🐍 Python", "🧭 Django", "⚡️ FastAPI", "🐘 PostgreSQL", "🤸 ElasticSearch", "🥬 Celery", "⌛️ Redis", "🐳 Docker", "☁️ AWS"],
     "description": [
       "Created new Django REST API endpoints, improving app functionality.",
       "Optimized slow components, enhancing app performance and user satisfaction.",
@@ -180,7 +180,7 @@ export const EXPERIENCE = [
     "country": "United Kingdom",
     "start": "May 2021",
     "end": "May 2022",
-    "stack": ["JavaScript", "TailwindCSS", "11ty", "Sanity", "Shopify API", "Python", "Django", "Postgres"],
+    "stack": ["🏗️ JavaScript", "💨 TailwindCSS", "🔨 11ty", "🖊️ Sanity", "🛍️ Shopify API", "🐍 Python", "🧭 Django", "🐘 Postgres"],
     "description": [
       "Developed key website components, boosting user engagement.",
       "Integrated e-commerce features using Shopify Cart API, increasing sales conversions.",
@@ -194,7 +194,7 @@ export const EXPERIENCE = [
     "country": "United States",
     "start": "Jan 2021",
     "end": "May 2021",
-    "stack": ["Python", "Django", "Postgres", "HTMX", "JavaScript", "Alpine.js", "TailwindCSS", "Docker"],
+    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "⚒️ TMX", "🏗️ JavaScript", "🏔️ Alpine.js", "💨 TailwindCSS", "🐳 Docker"],
     "description": [
       "Developed new parts of the website using Bootstrap, HTMX, and Alpine.js, which greatly improved the look and feel.",
       "Designed databases and REST APIs using Django and the Django Rest Framework, which made handling data more efficient.",
@@ -207,7 +207,7 @@ export const EXPERIENCE = [
     "country": "Germany",
     "start": "Mar 2020",
     "end": "Jan 2021",
-    "stack": ["Python", "Django", "Postgres", "Celery", "Redis", "JavaScript", "Vue.js", "TailwindCSS", "Docker"],
+    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🏗️ JavaScript", "🐲 Vue.js", "💨 TailwindCSS", "🐳 Docker"],
     "description": [
       "Developed a CRM/CMS for the music/events industry.",
       "Created a tool for easy professional band website construction.",
@@ -222,7 +222,7 @@ export const EXPERIENCE = [
     "country": "United Kingdom",
     "start": "Aug 2019",
     "end": "Mar 2020",
-    "stack": ["Python", "Django", "Postgres", "Celery", "Redis", "JavaScript", "Vue.js", "TailwindCSS", "Docker"],
+    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🏗️ JavaScript", "🐲 Vue.js", "💨 TailwindCSS", "🐳 Docker"],
     "description": [
       "Developed an Application Dashboard with TailwindCSS and Alpine.js for enhanced UI/UX.",
       "Improved data management with effective database models.",
@@ -236,7 +236,7 @@ export const EXPERIENCE = [
     "country": "Poland",
     "start": "Aug 2017",
     "end": "Aug 2019",
-    "stack": ["Python", "Django", "Flask", "Pyramid", "MySQL", "Postgres", "Celery", "Redis", "RabbitMQ", "JavaScript", "Vue.js"],
+    "stack": ["🐍 Python", "🧭 Django", "🧪 Flask", "🔺 Pyramid", "🗄️ MySQL", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🐰 RabbitMQ", "🏗️ JavaScript", "🐲 Vue.js"],
     "description": [
       "Created unique web applications and REST APIs for international clients.",
       "Expedited initial product versions for quicker market testing.",
@@ -311,7 +311,7 @@ export const SKILLS = [
         "years": 7
       },
       {
-        "name": "🗄️ PostgreSQL",
+        "name": "🐘 PostgreSQL",
         "years": 7
       },
       {
