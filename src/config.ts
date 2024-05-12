@@ -145,31 +145,31 @@ export const SKILLS = [
     name: "Programming and Web Development",
     skills: [
       {
-        "name": "Python",
+        "name": "🐍 Python",
         "years": 7
       },
       {
-        "name": "JavaScript",
+        "name": "🏗️ JavaScript",
         "years": 7
       },
       {
-        "name": "HTML",
+        "name": "🌍 HTML",
         "years": 8
       },
       {
-        "name": "CSS",
+        "name": "✨ CSS",
         "years": 8
       },
       {
-        "name": "Django",
+        "name": "🧭 Django",
         "years": 5
       },
       {
-        "name": "Flask",
+        "name": "🧪 Flask",
         "years": 5
       },
       {
-        "name": "FastAPI",
+        "name": "⚡️ FastAPI",
         "years": 4
       },
       {
@@ -177,23 +177,23 @@ export const SKILLS = [
         "years": 5
       },
       {
-        "name": "Web Scraping",
+        "name": "🧹 Web Scraping",
         "years": 7
       },
       {
-        "name": "TailwindCSS",
+        "name": "💨 TailwindCSS",
         "years": 5
       },
       {
-        "name": "Vue.js",
+        "name": "🐲 Vue.js",
         "years": 4
       },
       {
-        "name": "Alpine.js",
+        "name": "🏔️ Alpine.js",
         "years": 4
       },
       {
-        "name": "Angular",
+        "name": "🛡️ Angular",
         "years": 1
       }
     ]
@@ -202,23 +202,23 @@ export const SKILLS = [
     name: "Databases and Task Processing",
     skills: [
       {
-        "name": "MySQL",
+        "name": "🗄️ MySQL",
         "years": 7
       },
       {
-        "name": "PostgreSQL",
+        "name": "🗄️ PostgreSQL",
         "years": 7
       },
       {
-        "name": "MongoDB",
+        "name": "🔮 MongoDB",
         "years": 4
       },
       {
-        "name": "Celery",
+        "name": "🥬 Celery",
         "years": 5
       },
       {
-        "name": "Redis",
+        "name": "⌛️ Redis",
         "years": 5
       }
     ]
@@ -227,31 +227,31 @@ export const SKILLS = [
     name: "DevOps and Other Skills",
     skills: [
       {
-        "name": "Docker",
+        "name": "🐳 Docker",
         "years": 4
       },
       {
-        "name": "Kubernetes",
+        "name": "☸️ Kubernetes",
         "years": 2
       },
       {
-        "name": "Github Workflow",
+        "name": "🔄 Github Workflow",
         "years": 3
       },
       {
-        "name": "Technical writing",
+        "name": "📝 Technical writing",
         "years": 6
       },
       {
-        "name": "Shopify",
+        "name": "🛍️ Shopify",
         "years": 5
       },
       {
-        "name": "Cloud",
+        "name": "☁️ Cloud",
         "years": 4
       },
       {
-        "name": "Testing",
+        "name": "🐞 Testing",
         "years": 5
       }
     ]
