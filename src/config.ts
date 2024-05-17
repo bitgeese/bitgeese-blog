@@ -161,6 +161,7 @@ export const EXPERIENCE = [
   {
     "position": "Backend Engineer",
     "company": "LeadSherpa",
+    "website": "https://leadsherpa.com",
     "country": "United States",
     "start": "May 2022",
     "end": "Dec 2022",
@@ -175,74 +176,42 @@ export const EXPERIENCE = [
     ]
   },
   {
-    "position": "Full Stack Developer",
-    "company": "Losource LTD",
-    "country": "United Kingdom",
-    "start": "May 2021",
-    "end": "May 2022",
-    "stack": ["🏗️ JavaScript", "💨 TailwindCSS", "🔨 11ty", "🖊️ Sanity", "🛍️ Shopify API", "🐍 Python", "🧭 Django", "🐘 Postgres"],
-    "description": [
-      "Developed key website components, boosting user engagement.",
-      "Integrated e-commerce features using Shopify Cart API, increasing sales conversions.",
-      "Assisted in building robust back-ends with 11ty and headless CMS systems like Sanity, enhancing content management.",
-      "Created custom REST APIs with Django, improving website functionality and user experience."
-    ]
-  },
-  {
-    "position": "Full Stack Developer",
-    "company": "NextPower Capital Advisors",
-    "country": "United States",
-    "start": "Jan 2021",
-    "end": "May 2021",
-    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "⚒️ TMX", "🏗️ JavaScript", "🏔️ Alpine.js", "💨 TailwindCSS", "🐳 Docker"],
-    "description": [
-      "Developed new parts of the website using Bootstrap, HTMX, and Alpine.js, which greatly improved the look and feel.",
-      "Designed databases and REST APIs using Django and the Django Rest Framework, which made handling data more efficient.",
-      "Improved code quality, increased test coverage, and simplified CI/CD pipelines, which led to better operational efficiency."
-    ]
-  },
-  {
-    "position": "Full Stack Developer",
-    "company": "GigB GmbH",
-    "country": "Germany",
-    "start": "Mar 2020",
-    "end": "Jan 2021",
-    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🏗️ JavaScript", "🐲 Vue.js", "💨 TailwindCSS", "🐳 Docker"],
-    "description": [
-      "Developed a CRM/CMS for the music/events industry.",
-      "Created a tool for easy professional band website construction.",
-      "Expedited project timelines with a quickly implemented Application Dashboard.",
-      "Enhanced data management with efficient database models.",
-      "Improved app functionality/compatibility with a Django Rest Framework REST API."
-    ]
-  },
-  {
-    "position": "Full Stack Developer",
-    "company": "CrowdEngage",
-    "country": "United Kingdom",
-    "start": "Aug 2019",
-    "end": "Mar 2020",
-    "stack": ["🐍 Python", "🧭 Django", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🏗️ JavaScript", "🐲 Vue.js", "💨 TailwindCSS", "🐳 Docker"],
-    "description": [
-      "Developed an Application Dashboard with TailwindCSS and Alpine.js for enhanced UI/UX.",
-      "Improved data management with effective database models.",
-      "Increased app functionality with a robust REST API using Django Rest Framework.",
-      "Introduced testing coverage, CI/CD pipeline with code checks and tests."
-    ]
-  },
-  {
-    "position": "Full Stack Developer",
-    "company": "Freelance",
-    "country": "Poland",
+    "position": "Full Stack Developer (Freelance)",
+    "company": "Various Clients",
+    "website": "https://bitgeese.io",
+    "country": "Multiple Countries",
     "start": "Aug 2017",
-    "end": "Aug 2019",
-    "stack": ["🐍 Python", "🧭 Django", "🧪 Flask", "🔺 Pyramid", "🗄️ MySQL", "🐘 Postgres", "🥬 Celery", "⌛️ Redis", "🐰 RabbitMQ", "🏗️ JavaScript", "🐲 Vue.js"],
+    "end": "May 2022",
+    "stack": [
+      "🏗️ JavaScript",
+      "💨 TailwindCSS",
+      "🔨 11ty",
+      "🖊️ Sanity",
+      "🛍️ Shopify API",
+      "🐍 Python",
+      "🧭 Django",
+      "🐘 Postgres",
+      "⚒️ HTMX",
+      "🏔️ Alpine.js",
+      "🐳 Docker",
+      "🥬 Celery",
+      "⌛️ Redis",
+      "🐲 Vue.js",
+      "🧪 Flask",
+      "🔺 Pyramid",
+      "🗄️ MySQL",
+      "🐰 RabbitMQ"
+    ],
     "description": [
-      "Created unique web applications and REST APIs for international clients.",
-      "Expedited initial product versions for quicker market testing.",
-      "Established advanced web scraping systems for efficient data collection."
+      "Developed key website components, boosting user engagement and increasing sales conversions with Shopify API.",
+      "Assisted in building robust back-ends with 11ty and Sanity, enhancing content management.",
+      "Created custom REST APIs and designed databases using Django, improving functionality and data handling.",
+      "Enhanced data management and app functionality with efficient database models and Django Rest Framework REST API.",
+      "Improved code quality, test coverage, and CI/CD pipelines, leading to better operational efficiency.",
+      "Created unique web applications and web scraping systems for international clients, expediting initial product versions."
     ]
   }
+  
 ];
 
 export const SKILLS = [
@@ -251,55 +220,55 @@ export const SKILLS = [
     skills: [
       {
         "name": "🐍 Python",
-        "years": 7
+        "years": "7 years"
       },
       {
         "name": "🏗️ JavaScript",
-        "years": 7
+        "years": "7 years"
       },
       {
         "name": "🌍 HTML",
-        "years": 8
+        "years": "8 years"
       },
       {
         "name": "✨ CSS",
-        "years": 8
+        "years": "8 years"
       },
       {
         "name": "🧭 Django",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "🧪 Flask",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "⚡️ FastAPI",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "Rest API",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "🧹 Web Scraping",
-        "years": 7
+        "years": "7 years"
       },
       {
         "name": "💨 TailwindCSS",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "🐲 Vue.js",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "🏔️ Alpine.js",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "🛡️ Angular",
-        "years": 1
+        "years": "1 year"
       }
     ]
   },
@@ -308,23 +277,23 @@ export const SKILLS = [
     skills: [
       {
         "name": "🗄️ MySQL",
-        "years": 7
+        "years": "7 years"
       },
       {
         "name": "🐘 PostgreSQL",
-        "years": 7
+        "years": "7 years"
       },
       {
         "name": "🔮 MongoDB",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "🥬 Celery",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "⌛️ Redis",
-        "years": 5
+        "years": "5 years"
       }
     ]
   },
@@ -333,31 +302,31 @@ export const SKILLS = [
     skills: [
       {
         "name": "🐳 Docker",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "☸️ Kubernetes",
-        "years": 2
+        "years": "2 years"
       },
       {
         "name": "🔄 Github Workflow",
-        "years": 3
+        "years": "3 years"
       },
       {
         "name": "📝 Technical writing",
-        "years": 6
+        "years": "6 years"
       },
       {
         "name": "🛍️ Shopify",
-        "years": 5
+        "years": "5 years"
       },
       {
         "name": "☁️ Cloud",
-        "years": 4
+        "years": "4 years"
       },
       {
         "name": "🐞 Testing",
-        "years": 5
+        "years": "5 years"
       }
     ]
   },

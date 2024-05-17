@@ -1,8 +1,28 @@
 ---
 export interface Props {
   skill: string;
+  extra: string;
 }
 
-const { skill } = Astro.props;
+const { skill, extra } = Astro.props;
 ---
-<span class="mr-1.5 mt-2 inline-flex items-center rounded-md bg-gray-400/10 px-2 py-1 text-xs font-medium text-gray-400 ring-1 ring-inset ring-gray-400/20">{skill}</span>
+
+
+
+<div class='skill-badge'>
+  <span class='tooltip'>{extra}</span>
+  {skill}
+</div>
+
+
+<style>
+  .skill-badge {
+    @apply mr-1.5 mt-2 inline-flex items-center rounded-md bg-gray-400/10 px-2 py-1 text-xs font-medium text-gray-400 ring-1 ring-inset ring-gray-400/20;
+  }
+  .skill-badge:hover .tooltip {
+  @apply visible z-50;
+}
+  .tooltip {
+  @apply invisible absolute rounded-md px-2 py-1 text-xs font-medium text-skin-accent bg-skin-fill -mt-8;
+  }
+</style>

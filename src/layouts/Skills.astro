@@ -19,7 +19,7 @@ import { SITE, SKILLS } from "@config";
         <div class="mt-2 mb-4 pr-32">
           {
             category.skills.map(skill => (
-              <SkillBadge skill={skill.name} />
+              <SkillBadge skill={skill.name} extra={skill.years}/>
             ))
           }
           
