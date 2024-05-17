@@ -216,8 +216,8 @@ export const EXPERIENCE = [
 
 export const SKILLS = [
   {
-    name: "Programming and Web Development",
-    skills: [
+    "name": "Programming Languages",
+    "skills": [
       {
         "name": "🐍 Python",
         "years": "7 years"
@@ -233,7 +233,12 @@ export const SKILLS = [
       {
         "name": "✨ CSS",
         "years": "8 years"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Libraries & Frameworks",
+    "skills": [
       {
         "name": "🧭 Django",
         "years": "5 years"
@@ -247,18 +252,6 @@ export const SKILLS = [
         "years": "4 years"
       },
       {
-        "name": "Rest API",
-        "years": "5 years"
-      },
-      {
-        "name": "🧹 Web Scraping",
-        "years": "7 years"
-      },
-      {
-        "name": "💨 TailwindCSS",
-        "years": "5 years"
-      },
-      {
         "name": "🐲 Vue.js",
         "years": "4 years"
       },
@@ -269,37 +262,28 @@ export const SKILLS = [
       {
         "name": "🛡️ Angular",
         "years": "1 year"
-      }
-    ]
-  },
-  {
-    name: "Databases and Task Processing",
-    skills: [
-      {
-        "name": "🗄️ MySQL",
-        "years": "7 years"
       },
       {
-        "name": "🐘 PostgreSQL",
-        "years": "7 years"
+        "name": "💨 TailwindCSS",
+        "years": "5 years"
       },
       {
-        "name": "🔮 MongoDB",
-        "years": "4 years"
+        "name": "Rest API",
+        "years": "5 years"
+      },
+      {
+        "name": "🧹 Web Scraping",
+        "years": "7 years"
       },
       {
         "name": "🥬 Celery",
         "years": "5 years"
-      },
-      {
-        "name": "⌛️ Redis",
-        "years": "5 years"
       }
     ]
   },
   {
-    name: "DevOps and Other Skills",
-    skills: [
+    "name": "Tools & Platforms",
+    "skills": [
       {
         "name": "🐳 Docker",
         "years": "4 years"
@@ -313,10 +297,6 @@ export const SKILLS = [
         "years": "3 years"
       },
       {
-        "name": "📝 Technical writing",
-        "years": "6 years"
-      },
-      {
         "name": "🛍️ Shopify",
         "years": "5 years"
       },
@@ -326,6 +306,22 @@ export const SKILLS = [
       },
       {
         "name": "🐞 Testing",
+        "years": "5 years"
+      },
+      {
+        "name": "🗄️ MySQL",
+        "years": "7 years"
+      },
+      {
+        "name": "🐘 PostgreSQL",
+        "years": "7 years"
+      },
+      {
+        "name": "🔮 MongoDB",
+        "years": "4 years"
+      },
+      {
+        "name": "⌛️ Redis",
         "years": "5 years"
       }
     ]
@@ -346,9 +342,10 @@ export const SKILLS = [
         "years": "Fluent"
       },
       {
-        "name": "🇧🇷 Portugese",
+        "name": "🇧🇷 Portuguese",
         "years": "Advanced"
       }
     ]
   }
-];
+]
+;
