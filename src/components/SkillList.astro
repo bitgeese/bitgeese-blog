@@ -1,0 +1,20 @@
+---
+import SkillBadge from "@components/SkillBadge.astro";
+import { SKILLS } from "@config";
+---
+
+{
+SKILLS.map(category => (
+    <h2 class="text-2xl text-skin-accent font-semibold">{category.name}</h2>
+    <div class="mt-2 mb-4 pr-32">
+    {
+        category.skills.map(skill => (
+        <SkillBadge skill={skill.name} extra={skill.years}/>
+        ))
+    }
+    
+
+    </div>
+
+))
+}
