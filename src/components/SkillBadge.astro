@@ -8,7 +8,6 @@ const { skill, extra } = Astro.props;
 ---
 
 
-
 <div class='skill-badge'>
   <span class='tooltip'>{extra}</span>
   {skill}
@@ -17,7 +16,14 @@ const { skill, extra } = Astro.props;
 
 <style>
   .skill-badge {
-    @apply mr-1.5 mt-2 inline-flex items-center rounded-md bg-gray-400/10 px-2 py-1 text-xs font-medium text-gray-400 ring-1 ring-inset ring-gray-400/20;
+    @apply mr-1.5 mt-2 inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset;
+  }
+  html[data-theme="dark"] .skill-badge {
+    @apply bg-slate-400/10 text-slate-400 ring-slate-400/20;
+  }
+
+  html[data-theme="light"] .skill-badge {
+    @apply bg-slate-700/10 text-slate-700 ring-slate-700/20;
   }
   .skill-badge:hover .tooltip {
   @apply visible z-50;
@@ -26,3 +32,4 @@ const { skill, extra } = Astro.props;
   @apply invisible absolute rounded-md px-2 py-1 text-xs font-medium text-skin-accent bg-skin-fill -mt-8;
   }
 </style>
+
