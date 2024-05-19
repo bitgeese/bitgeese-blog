@@ -14,7 +14,7 @@
   html[data-theme="light"] {
     --color-fill: 255, 255, 255; /* white background */
     --color-text-base: 0, 0, 0; /* black text */
-    --color-accent: 218, 165, 32; /* Luminous Red as the accent color */
+    --color-accent: 233, 72, 35; /* Luminous Red as the accent color */
     --color-card: 250, 250, 250; /* lighter shade for cards */
     --color-card-muted: 240, 240, 240; /* muted card color */
     --color-border: 230, 230, 230; /* light gray for borders */
@@ -23,7 +23,7 @@
   html[data-theme="dark"] {
     --color-fill: 15, 15, 15; /* very dark black background */
     --color-text-base: 255, 255, 255; /* slightly off-white for text, better contrast on black */
-    --color-accent: 218, 165, 32; /* Luminous Red as the accent color */
+    --color-accent: 233, 72, 35; /* Luminous Red as the accent color */
     --color-card: 28, 28, 28; /* darker shade of black for cards */
     --color-card-muted: 45, 45, 45; /* muted dark grey for less prominent elements */
     --color-border: 70, 70, 70; /* dark grey for borders */
