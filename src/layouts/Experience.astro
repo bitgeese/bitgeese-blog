@@ -22,7 +22,7 @@ import { SITE, EXPERIENCE } from "@config";
     {
       EXPERIENCE.map(experience => (
         <div class="mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
-            <header class="text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">{experience.start} — {experience.end}</header>
+            <header class="text-xs font-semibold uppercase tracking-wide text-skin-accent sm:col-span-2">{experience.start} — {experience.end}</header>
             <div class="sm:col-span-6">
                 <h3 class="font-medium leading-snug">
                     <a class="inline-flex items-baseline font-medium leading-tight hover:text-skin-accent focus-visible:text-skin-accent group/link text-base" href={experience.website} target="_blank">{experience.position} · {experience.company}</a>

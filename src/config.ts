@@ -180,8 +180,8 @@ export const EXPERIENCE = [
     "company": "Various Clients",
     "website": "https://bitgeese.io",
     "country": "Multiple Countries",
-    "start": "Aug 2017",
-    "end": "May 2022",
+    "start": "2017",
+    "end": "2022",
     "stack": [
       "🏗️ JavaScript",
       "💨 TailwindCSS",
