@@ -143,7 +143,7 @@ export const SOCIALS: SocialObjects = [
 export const EXPERIENCE = [
   {
     "position": "Backend Engineer, DDOS",
-    "company": "G-Core",
+    "company": "G-Core 🇱🇺",
     "website": "https://gcore.com",
     "country": "Luxembourg",
     "start": "2022",
@@ -160,7 +160,7 @@ export const EXPERIENCE = [
   },
   {
     "position": "Backend Engineer",
-    "company": "LeadSherpa",
+    "company": "LeadSherpa 🇺🇸",
     "website": "https://leadsherpa.com",
     "country": "United States",
     "start": "May 2022",
@@ -177,19 +177,19 @@ export const EXPERIENCE = [
   },
   {
     "position": "Full Stack Developer (Freelance)",
-    "company": "Various Clients",
+    "company": "Various Clients 🌍",
     "website": "https://bitgeese.io",
     "country": "Multiple Countries",
     "start": "2017",
     "end": "2022",
     "stack": [
+      "🐍 Python",
       "🏗️ JavaScript",
+      "🧭 Django",
       "💨 TailwindCSS",
       "🔨 11ty",
       "🖊️ Sanity",
       "🛍️ Shopify API",
-      "🐍 Python",
-      "🧭 Django",
       "🐘 Postgres",
       "⚒️ HTMX",
       "🏔️ Alpine.js",
