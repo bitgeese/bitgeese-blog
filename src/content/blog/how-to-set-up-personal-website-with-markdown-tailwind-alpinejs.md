@@ -8,7 +8,6 @@ featured: true
 draft: false
 tags:
   - eleventy
-  - 11ty
   - markdown
   - tailwindcss
   - alpine.js

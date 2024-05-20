@@ -9,7 +9,6 @@ draft: false
 tags:
   - frontend
   - eleventy
-  - 11ty
   - strapi
   - cms
   - jamstack
