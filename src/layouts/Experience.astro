@@ -11,7 +11,7 @@ import { SITE, EXPERIENCE } from "@config";
 ---
 
 <Layout title={`Experience | ${SITE.title}`}>
-  <Header activeNav="resume" />
+  <Header activeNav="experience" />
   <Main pageTitle="Experience">
     <button onclick="sa_event('btn_clicked')">
     <LinkButton
@@ -23,11 +23,11 @@ import { SITE, EXPERIENCE } from "@config";
     </button>
     {
       EXPERIENCE.map(experience => (
-        <div class="group cursor-pointer mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
+        <a href={experience.website} target="_blank" class="block group mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
             <header class="text-xs font-semibold uppercase tracking-wide text-skin-accent sm:col-span-2">{experience.start} — {experience.end}</header>
             <div class="rounded-md sm:col-span-6">
                 <h3 class="font-medium leading-snug">
-                    <a class="inline-flex items-baseline font-medium leading-tight group-hover:text-skin-accent focus-visible:text-skin-accent group/link text-base" href={experience.website} target="_blank">{experience.position} · {experience.company}</a>
+                    <span class="inline-flex items-baseline font-medium leading-tight group-hover:text-skin-accent focus-visible:text-skin-accent group/link text-base">{experience.position} · {experience.company}</span>
                 </h3>
                 <ul class="mt-2 text-sm leading-normal list-disc list-inside">
                     {
@@ -48,7 +48,7 @@ import { SITE, EXPERIENCE } from "@config";
                 
             </div>
           
-        </div>
+        </a>
 
       ))
     }
