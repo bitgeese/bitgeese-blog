@@ -3,34 +3,10 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Back in 2017, the idea of working remotely on my own schedule drew me into the world of coding. My first freelance project, a simple web scraper, took two weeks to complete but earned me $50 and sparked a passion for problem-solving and creating with code.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Since then, I’ve had the chance to work on some amazing projects. These include building SaaS for a US real estate investment startup, contributing to a large international cloud provider, and crafting cool products for a small animation studio, among many others.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+My main focus these days is backend development, where I excel with frameworks like Django and FastAPI. On the frontend, I enjoy working with TailwindCSS and Alpine.js. I constantly explore new technologies and work on side projects to stay at the cutting edge of the field.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+When I’m not at the computer, you can find me practicing Muay Thai, running, hitting the gym, or learning tennis. I’m passionate about traveling, cooking, trying new cuisines, and learning new languages. So far, I’ve lived in 🇵🇱 Poland, 🇦🇷 Argentina, 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland, and 🇧🇷 Brazil, and I speak four languages fluently. Additionally, I enjoy video games and writing.
