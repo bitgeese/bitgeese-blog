@@ -13,12 +13,14 @@ import { SITE, EXPERIENCE } from "@config";
 <Layout title={`Experience | ${SITE.title}`}>
   <Header activeNav="resume" />
   <Main pageTitle="Experience">
+    <button onclick="sa_event('btn_clicked')">
     <LinkButton
           className="mb-8 underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="/assets/downloads/maciej-janowski-resume.pdf"
         >
           Download
         </LinkButton>  my Resume as PDF
+    </button>
     {
       EXPERIENCE.map(experience => (
         <div class="group cursor-pointer mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
