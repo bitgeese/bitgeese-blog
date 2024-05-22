@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Maciej Janowski",
   desc: "Maciej Janowski | Backend Python Developer",
   title: "BitGeese",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "bitgeese-og.png",
   lightAndDarkMode: true,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
@@ -142,47 +142,68 @@ export const SOCIALS: SocialObjects = [
 
 export const EXPERIENCE = [
   {
-    "position": "Backend Engineer, DDOS",
-    "company": "G-Core 🇱🇺",
-    "website": "https://gcore.com",
-    "country": "Luxembourg",
-    "start": "2022",
-    "end": "Present",
-    "stack": ["🐍 Python", "🧭 Django", "⚡️ FastApi", "🐘 PostgreSQL", "🥬 Celery", "⌛️ Redis", "🐰 RabbitMQ", "🐳 Docker", "☸️ Kubernetes", "📊 Grafana"],
-    "description": [
+    position: "Backend Engineer, DDOS",
+    company: "G-Core 🇱🇺",
+    website: "https://gcore.com",
+    country: "Luxembourg",
+    start: "2022",
+    end: "Present",
+    stack: [
+      "🐍 Python",
+      "🧭 Django",
+      "⚡️ FastApi",
+      "🐘 PostgreSQL",
+      "🥬 Celery",
+      "⌛️ Redis",
+      "🐰 RabbitMQ",
+      "🐳 Docker",
+      "☸️ Kubernetes",
+      "📊 Grafana",
+    ],
+    description: [
       "Created a tool to better track errors, making it easier to fix bugs.",
       "Made new data collection points using FastAPI in REST API work.",
       "Led the creation of a REST API for a new product, offering advanced AI features for clients.",
       "Improved the workflow with new checks and task monitoring using Grafana and Flower.",
       "Helped new team members settle in, improving teamwork and efficiency.",
-      "Assessed a new company's product, helping with important decisions."
-    ]
+      "Assessed a new company's product, helping with important decisions.",
+    ],
   },
   {
-    "position": "Backend Engineer",
-    "company": "LeadSherpa 🇺🇸",
-    "website": "https://leadsherpa.com",
-    "country": "United States",
-    "start": "May 2022",
-    "end": "Dec 2022",
-    "stack": ["🐍 Python", "🧭 Django", "⚡️ FastAPI", "🐘 PostgreSQL", "🤸 ElasticSearch", "🥬 Celery", "⌛️ Redis", "🐳 Docker", "☁️ AWS"],
-    "description": [
+    position: "Backend Engineer",
+    company: "LeadSherpa 🇺🇸",
+    website: "https://leadsherpa.com",
+    country: "United States",
+    start: "May 2022",
+    end: "Dec 2022",
+    stack: [
+      "🐍 Python",
+      "🧭 Django",
+      "⚡️ FastAPI",
+      "🐘 PostgreSQL",
+      "🤸 ElasticSearch",
+      "🥬 Celery",
+      "⌛️ Redis",
+      "🐳 Docker",
+      "☁️ AWS",
+    ],
+    description: [
       "Created new Django REST API endpoints, improving app functionality.",
       "Optimized slow components, enhancing app performance and user satisfaction.",
       "Updated outsourced legacy code, enhancing code quality.",
       "Developed features for internal tools, reducing ticket resolution time.",
       "Led new feature implementation in flagship product, aiding market success.",
-      "Improved product quality by increasing test coverage."
-    ]
+      "Improved product quality by increasing test coverage.",
+    ],
   },
   {
-    "position": "Full Stack Developer (Freelance)",
-    "company": "Various Clients 🌍",
-    "website": "https://bitgeese.io",
-    "country": "Multiple Countries",
-    "start": "2017",
-    "end": "2022",
-    "stack": [
+    position: "Full Stack Developer (Freelance)",
+    company: "Various Clients 🌍",
+    website: "https://bitgeese.io",
+    country: "Multiple Countries",
+    start: "2017",
+    end: "2022",
+    stack: [
       "🐍 Python",
       "🏗️ JavaScript",
       "🧭 Django",
@@ -200,152 +221,150 @@ export const EXPERIENCE = [
       "🧪 Flask",
       "🔺 Pyramid",
       "🗄️ MySQL",
-      "🐰 RabbitMQ"
+      "🐰 RabbitMQ",
     ],
-    "description": [
+    description: [
       "Developed key website components, boosting user engagement and increasing sales conversions with Shopify API.",
       "Assisted in building robust back-ends with 11ty and Sanity, enhancing content management.",
       "Created custom REST APIs and designed databases using Django, improving functionality and data handling.",
       "Enhanced data management and app functionality with efficient database models and Django Rest Framework REST API.",
       "Improved code quality, test coverage, and CI/CD pipelines, leading to better operational efficiency.",
-      "Created unique web applications and web scraping systems for international clients, expediting initial product versions."
-    ]
-  }
-  
+      "Created unique web applications and web scraping systems for international clients, expediting initial product versions.",
+    ],
+  },
 ];
 
 export const SKILLS = [
   {
-    "name": "Programming Languages",
-    "skills": [
+    name: "Programming Languages",
+    skills: [
       {
-        "name": "🐍 Python",
-        "years": "7 years"
+        name: "🐍 Python",
+        years: "7 years",
       },
       {
-        "name": "🏗️ JavaScript",
-        "years": "7 years"
+        name: "🏗️ JavaScript",
+        years: "7 years",
       },
       {
-        "name": "🌍 HTML",
-        "years": "8 years"
+        name: "🌍 HTML",
+        years: "8 years",
       },
       {
-        "name": "✨ CSS",
-        "years": "8 years"
-      }
-    ]
+        name: "✨ CSS",
+        years: "8 years",
+      },
+    ],
   },
   {
-    "name": "Libraries & Frameworks",
-    "skills": [
+    name: "Libraries & Frameworks",
+    skills: [
       {
-        "name": "🧭 Django",
-        "years": "5 years"
+        name: "🧭 Django",
+        years: "5 years",
       },
       {
-        "name": "🧪 Flask",
-        "years": "5 years"
+        name: "🧪 Flask",
+        years: "5 years",
       },
       {
-        "name": "⚡️ FastAPI",
-        "years": "4 years"
+        name: "⚡️ FastAPI",
+        years: "4 years",
       },
       {
-        "name": "🐲 Vue.js",
-        "years": "4 years"
+        name: "🐲 Vue.js",
+        years: "4 years",
       },
       {
-        "name": "🏔️ Alpine.js",
-        "years": "4 years"
+        name: "🏔️ Alpine.js",
+        years: "4 years",
       },
       {
-        "name": "🛡️ Angular",
-        "years": "1 year"
+        name: "🛡️ Angular",
+        years: "1 year",
       },
       {
-        "name": "💨 TailwindCSS",
-        "years": "5 years"
+        name: "💨 TailwindCSS",
+        years: "5 years",
       },
       {
-        "name": "Rest API",
-        "years": "5 years"
+        name: "Rest API",
+        years: "5 years",
       },
       {
-        "name": "🧹 Web Scraping",
-        "years": "7 years"
+        name: "🧹 Web Scraping",
+        years: "7 years",
       },
       {
-        "name": "🥬 Celery",
-        "years": "5 years"
-      }
-    ]
+        name: "🥬 Celery",
+        years: "5 years",
+      },
+    ],
   },
   {
-    "name": "Tools & Platforms",
-    "skills": [
+    name: "Tools & Platforms",
+    skills: [
       {
-        "name": "🐳 Docker",
-        "years": "4 years"
+        name: "🐳 Docker",
+        years: "4 years",
       },
       {
-        "name": "☸️ Kubernetes",
-        "years": "2 years"
+        name: "☸️ Kubernetes",
+        years: "2 years",
       },
       {
-        "name": "🔄 Github Workflow",
-        "years": "3 years"
+        name: "🔄 Github Workflow",
+        years: "3 years",
       },
       {
-        "name": "🛍️ Shopify",
-        "years": "5 years"
+        name: "🛍️ Shopify",
+        years: "5 years",
       },
       {
-        "name": "☁️ Cloud",
-        "years": "4 years"
+        name: "☁️ Cloud",
+        years: "4 years",
       },
       {
-        "name": "🐞 Testing",
-        "years": "5 years"
+        name: "🐞 Testing",
+        years: "5 years",
       },
       {
-        "name": "🗄️ MySQL",
-        "years": "7 years"
+        name: "🗄️ MySQL",
+        years: "7 years",
       },
       {
-        "name": "🐘 PostgreSQL",
-        "years": "7 years"
+        name: "🐘 PostgreSQL",
+        years: "7 years",
       },
       {
-        "name": "🔮 MongoDB",
-        "years": "4 years"
+        name: "🔮 MongoDB",
+        years: "4 years",
       },
       {
-        "name": "⌛️ Redis",
-        "years": "5 years"
-      }
-    ]
+        name: "⌛️ Redis",
+        years: "5 years",
+      },
+    ],
   },
   {
-    "name": "Languages",
-    "skills": [
+    name: "Languages",
+    skills: [
       {
-        "name": "🇺🇸 English",
-        "years": "Fluent"
+        name: "🇺🇸 English",
+        years: "Fluent",
       },
       {
-        "name": "🇵🇱 Polish",
-        "years": "Native"
+        name: "🇵🇱 Polish",
+        years: "Native",
       },
       {
-        "name": "🇪🇸 Spanish",
-        "years": "Fluent"
+        name: "🇪🇸 Spanish",
+        years: "Fluent",
       },
       {
-        "name": "🇧🇷 Portuguese",
-        "years": "Advanced"
-      }
-    ]
-  }
-]
-;
+        name: "🇧🇷 Portuguese",
+        years: "Advanced",
+      },
+    ],
+  },
+];
