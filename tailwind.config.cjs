@@ -23,6 +23,9 @@ module.exports = {
       custom: ["Brenat", "Inter Var", ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      colors: {
+        "accent": withOpacity("--color-accent"),
+      },
       textColor: {
         skin: {
           base: withOpacity("--color-text-base"),
