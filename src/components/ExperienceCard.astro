@@ -5,6 +5,8 @@ export interface Experience {
   website: string;
   start: string;
   end: string;
+  position: string;
+  company: string;
   description: string[];
   stack: string[];
 }
@@ -19,27 +21,35 @@ const { experience } = Astro.props;
 <a
   href={experience.website}
   target="_blank"
-  class="block group mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4"
+  class="experience group block mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4"
 >
-  <header
-    class="text-xs font-semibold uppercase tracking-wide text-skin-accent sm:col-span-2"
-  >
+  <header>
     {experience.start} — {experience.end}
   </header>
   <div class="rounded-md sm:col-span-6">
-    <h3 class="font-medium leading-snug">
-      <span
-        class="inline-flex items-baseline font-medium leading-tight group-hover:text-skin-accent focus-visible:text-skin-accent group/link text-base"
-        >{experience.position} · {experience.company}</span
-      >
+    <h3 class="group-hover:text-skin-accent group/link">
+      {experience.position} · {experience.company}
     </h3>
-    <ul class="mt-2 text-sm leading-normal list-disc list-inside">
+    <ul class="description">
       {experience.description.map(bullet => <li>{bullet}</li>)}
     </ul>
-    <ul class="mt-2 flex flex-wrap">
+    <ul class="stack">
       {experience.stack.map(skill => <SkillBadge skill={skill} />)}
     </ul>
   </div>
 </a>
 
-<style></style>
+<style>
+  .experience header {
+    @apply text-xs font-semibold uppercase tracking-wide text-skin-accent sm:col-span-2;
+  }
+  .experience h3 {
+    @apply inline-flex items-baseline font-medium leading-snug focus-visible:text-skin-accent text-base;
+  }
+  .experience .description {
+    @apply mt-2 text-sm leading-normal list-disc list-inside;
+  }
+  .experience .stack {
+    @apply mt-2 flex flex-wrap;
+  }
+</style>
