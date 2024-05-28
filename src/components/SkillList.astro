@@ -4,17 +4,14 @@ import { SKILLS } from "@config";
 ---
 
 {
-SKILLS.map(category => (
-    <h3 class="text-xl text-skin-accent font-semibold">{category.name}</h3>
-    <div class="mt-2 mb-4 pr-32">
-    {
-        category.skills.map(skill => (
-        <SkillBadge skill={skill.name} extra={skill.years}/>
-        ))
-    }
-    
-
-    </div>
-
-))
+  SKILLS.map(category => (
+    <>
+      <h3 class="text-xl text-skin-accent font-semibold">{category.name}</h3>
+      <div class="mt-2 mb-4 sm:pr-64">
+        {category.skills.map(skill => (
+          <SkillBadge skill={skill.name} extra={skill.years} />
+        ))}
+      </div>
+    </>
+  ))
 }

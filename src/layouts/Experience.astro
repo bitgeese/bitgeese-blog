@@ -6,54 +6,21 @@ import Footer from "@components/Footer.astro";
 import SkillBadge from "@components/SkillBadge.astro";
 import LinkButton from "@components/LinkButton.astro";
 import { SITE, EXPERIENCE } from "@config";
-
-
+import ExperienceCard from "@components/ExperienceCard.astro";
 ---
 
 <Layout title={`Experience | ${SITE.title}`}>
   <Header activeNav="experience" />
   <Main pageTitle="Experience">
     <button onclick="sa_event('btn_clicked')">
-    <LinkButton
-          className="mb-8 underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="/assets/downloads/maciej-janowski-resume.pdf"
-        >
-          Download
-        </LinkButton>  my Resume as PDF
+      <LinkButton
+        className="mb-8 underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+        href="/assets/downloads/maciej-janowski-resume.pdf"
+      >
+        Download
+      </LinkButton> my Resume as PDF
     </button>
-    {
-      EXPERIENCE.map(experience => (
-        <a href={experience.website} target="_blank" class="block group mb-8 grid sm:grid-cols-8 sm:gap-8 md:gap-4">
-            <header class="text-xs font-semibold uppercase tracking-wide text-skin-accent sm:col-span-2">{experience.start} — {experience.end}</header>
-            <div class="rounded-md sm:col-span-6">
-                <h3 class="font-medium leading-snug">
-                    <span class="inline-flex items-baseline font-medium leading-tight group-hover:text-skin-accent focus-visible:text-skin-accent group/link text-base">{experience.position} · {experience.company}</span>
-                </h3>
-                <ul class="mt-2 text-sm leading-normal list-disc list-inside">
-                    {
-                        experience.description.map(bullet => (
-                            <li>{bullet}</li>
-                        ))
-                    }
-                </ul>
-                <ul class="mt-2 flex flex-wrap">
-                    {
-                        experience.stack.map(skill => (
-                            <SkillBadge skill={skill} />
-                        ))
-                    }
-                    
-
-                </ul>
-                
-            </div>
-          
-        </a>
-
-      ))
-    }
-    
+    {EXPERIENCE.map(experience => <ExperienceCard experience={experience} />)}
   </Main>
-
   <Footer />
 </Layout>

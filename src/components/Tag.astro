@@ -1,51 +1,24 @@
 ---
 export interface Props {
   tag: string;
-  size?: "sm" | "lg";
 }
 
-const { tag, size = "sm" } = Astro.props;
+const { tag } = Astro.props;
 ---
 
-<a href={`/tags/${tag}/`} transition:name={tag} class="skill-badge">
+<a href={`/tags/${tag}/`} transition:name={tag} class="tag">
   #{tag}
 </a>
 
 <style>
-  .skill-badge {
+  .tag {
     @apply mr-1.5 mt-2 inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset;
   }
-  html[data-theme="dark"] .skill-badge {
+  html[data-theme="dark"] .tag {
     @apply bg-slate-400/10 hover:bg-slate-400/20 text-slate-400 hover:text-slate-300 ring-slate-400/20 hover:ring-slate-400/30;
   }
 
-  html[data-theme="light"] .skill-badge {
+  html[data-theme="light"] .tag {
     @apply bg-slate-700/10 text-slate-700 ring-slate-700/20 hover:bg-slate-700/20 hover:text-slate-800 hover:ring-slate-700/30;
   }
-  .skill-badge:hover .tooltip {
-    @apply visible z-50;
-  }
 </style>
-
-<!-- 
-<li
-  class={`inline-block ${
-    size === "sm" ? "my-1 underline-offset-4" : "my-3 mx-1 underline-offset-8"
-  }`}
->
-  <a
-    href={`/tags/${tag}/`}
-    transition:name={tag}
-    class={`${size === "sm" ? "text-sm" : "text-lg"} pr-2 group`}
-  ><span>#{tag}</span>
-  </a>
-</li>
-
-<style>
-  a {
-    @apply relative underline decoration-dashed hover:-top-0.5 hover:text-skin-accent focus-visible:p-1;
-  }
-  a svg {
-    @apply h-6 w-6 scale-95 text-skin-base opacity-80 group-hover:fill-skin-accent;
-  }
-</style> -->
