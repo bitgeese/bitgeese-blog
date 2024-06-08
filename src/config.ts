@@ -288,7 +288,7 @@ export const SKILLS = [
         years: "5 years",
       },
       {
-        name: "Rest API",
+        name: "🛠️ Rest API",
         years: "5 years",
       },
       {
