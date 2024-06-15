@@ -2,9 +2,20 @@
 const showElement = import.meta.env.BANNER === "true";
 ---
 
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+
 {
   showElement && (
-    <div class="text-center bg-skin-accent px-6 py-2.5 sm:px-3.5">
+    <div
+      x-data="{ show: true }"
+      x-cloak
+      x-show="show"
+      class="flex items-center gap-x-6 bg-skin-accent px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
+    >
       <p class="text-sm text-white leading-6">
         <a href="https://habituo.app">
           <strong class="font-bold">🌳 Habituo.app</strong>
@@ -19,6 +30,30 @@ const showElement = import.meta.env.BANNER === "true";
           <span aria-hidden="true">&rarr;</span>
         </a>
       </p>
+
+      <div class="flex flex-1 justify-end">
+        <button
+          @click="show = false"
+          type="button"
+          class="-m-3 p-3 focus-visible:outline-offset-[-4px]"
+        >
+          <span class="sr-only">Dismiss</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="text-white size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
     </div>
   )
 }
