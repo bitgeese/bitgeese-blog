@@ -10,6 +10,7 @@ import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 import SkillList from "@components/SkillList.astro";
+import ProjectList from "@components/ProjectList.astro";
 
 const posts = await getCollection("blog");
 
@@ -26,7 +27,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <section id="hero">
       <h1>Hi, I am <span>Maciek</span></h1>
       <p>
-        I'm a developer who turns complex challenges into streamlined solutions using Python and JavaScript. Dive into my coding journey. 🚀
+        I'm a developer who turns complex challenges into streamlined solutions
+        using Python and JavaScript. Dive into my coding journey. 🚀
       </p>
       {
         // only display if at least one social link is enabled
@@ -41,8 +43,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <section id="skills">
       <h2 class="mb-4">Skills</h2>
-      <SkillList/>
-    </section>   
+      <SkillList />
+    </section>
+
+    <section id="projects">
+      <h2 class="mb-4">Projects</h2>
+      <ProjectList />
+      <div class="px-4 pt-6">
+        <a href="/projects" class="underline hover:text-accent">
+          See all projects
+        </a>
+      </div>
+    </section>
 
     {
       featuredPosts.length > 0 && (
@@ -127,11 +139,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
-  #recent-posts
-  #skills {
+  #projects,
+  #recent-posts #skills {
     @apply pb-6 pt-12;
   }
   #featured h2,
+  #projects h2,
   #recent-posts h2,
   #skills h2 {
     @apply text-2xl font-semibold tracking-wide;

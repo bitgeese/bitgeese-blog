@@ -368,3 +368,36 @@ export const SKILLS = [
     ],
   },
 ];
+
+export const PROJECTS = [
+  {
+    name: "Habituo.app",
+    type: "personal",
+    link: "https://habituo.app",
+    year: 2024,
+    image: "https://habituo.app/og.png",
+    image_alt: "Habituo.app OG Image",
+    description: "Ai powered Habit Tracker based on Atomic Habits methodology",
+  },
+  {
+    name: "Formslite.io",
+    type: "personal",
+    link: "https://formslite.io",
+    year: 2024,
+    image: "https://www.formslite.io/og.png",
+    image_alt: "formslite.io OG Image",
+    description:
+      "Free contact form service to send form submissions copy to your email.",
+  },
+  {
+    name: "SkillHQ",
+    type: "personal",
+    link: "https://www.producthunt.com/products/skillhq/reviews",
+    year: 2020,
+    image:
+      "https://ph-files.imgix.net/7dbe03f4-7736-4524-b674-5c3757aa2db6.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&fit=crop",
+    image_alt: "SkillHQ Logo",
+    description:
+      "Self learning organizer, tasks management, motivation  by sharing what you are learning.",
+  },
+];
